@@ -5,7 +5,7 @@ import tempfile, subprocess, sys, os, threading
 class RiscVUI:
     def __init__(self, root):
         self.root = root
-        root.title("RISC-V Toy Simulator - UI")
+        root.title("RISC-V Simulator - UI")
         root.geometry("1000x700")
 
         # Top frame: code editor

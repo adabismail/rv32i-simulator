@@ -1,4 +1,4 @@
-# RISC-V Toy Simulator (Python)
+# RISC-V Simulator (Python)
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat&logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/status-educational-orange)

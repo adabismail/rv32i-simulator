@@ -9,7 +9,7 @@ A minimal **RV32I-like simulator** written in Python, featuring a clean **Tkinte
 
 ---
 
-## 🚀 Features
+## Features
 * **Lightweight Simulator:** Distinct Python implementation of core RV32I behavior.
 * **Integrated GUI:** Built-in Tkinter editor and runner—no external IDE needed.
 * **Visual Debugging:** Step-by-step instruction tracing with visible PC updates.
@@ -19,25 +19,25 @@ A minimal **RV32I-like simulator** written in Python, featuring a clean **Tkinte
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 Below are the four screenshots demonstrating the working of the simulator and test programs.
 
-### 1️⃣ Default GUI Window  
+### Default GUI Window  
 ![Default GUI](screenshots/def_ex_out1.png)
 
-### 2️⃣ Default Program Output  
+### Default Program Output  
 ![Default Output](screenshots/def_ex_out2.png)
 
-### 3️⃣ Test Program 1 — Arithmetic & Memory   
+### Test Program 1 — Arithmetic & Memory   
 ![Test 1 Output](screenshots/test_arith_mem.png)
 
-### 4️⃣ Test Program 2 — Loop & Branching    
+### Test Program 2 — Loop & Branching    
 ![Test 2 Output](screenshots/test_loop.png)
 
 ---
 
-## 📂 Project Layout
+## Project Layout
 ```text
 .
 ├── riscv_sim.py      # Core RISC-V simulator logic (Classes & Execution)
@@ -49,7 +49,7 @@ Below are the four screenshots demonstrating the working of the simulator and te
 
 -----
 
-## 🧠 Supported Instructions
+## Supported Instructions
 
 This simulator implements a subset of the RV32I instruction set, optimized for educational use.
 
@@ -69,7 +69,7 @@ This simulator implements a subset of the RV32I instruction set, optimized for e
 
 -----
 
-## ▶️ How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ python risc_tk.py
 ```
 -----
 
-## 📝 Example Program
+## Example Program
 
 Here is the standard `example.s` included in the repo. It calculates 10 + 20 and stores the result in memory.
 
@@ -100,7 +100,7 @@ start:
 
 -----
 
-## 📌 Technical Notes
+## Technical Notes
 
   * **Assembler:** Uses a simple two-pass assembler to resolve labels.
   * **Addressing:** Memory is byte-addressed.
